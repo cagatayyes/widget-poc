@@ -1,0 +1,29 @@
+{
+	"presets": [
+		"react-app"
+	],
+	"plugins": [
+		[
+			"module-resolver",
+			{
+				"root": [
+					"./src"
+				],
+				"alias": {
+					"casino/libs": "./src/packages/libs",
+					"casino/utils": "./src/packages/utils",
+					"casino/layouts": "./src/packages/components/layouts",
+					"casino/pages": "./src/packages/pages",
+					"casino/tests": "./src/packages/tests",
+					"casino/assets": "./src/packages/assets",
+					"casino/api": "./src/packages/api",
+					"casino/hooks": "./src/packages/hooks",
+					"casino/components": "./src/packages/components",
+					"casino/context":"./src/packages/context",					
+					"casino/constants": "./src/packages/constants",
+					"casino/types": "./src/packages/types",
+				}
+			}
+		]
+	]
+}

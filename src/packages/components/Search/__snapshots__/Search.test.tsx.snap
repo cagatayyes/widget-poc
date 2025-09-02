@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Search should display Search component 1`] = `
+<div>
+  <div
+    class="inline-flex relative flex-row p-[10px] items-center  flex w-full"
+  >
+    <div
+      class="text-[#008751] mr-[5px] flex-grow-0 flex items-center"
+    >
+      <span
+        class="w-[16px] h-[16px] material-symbols-outlined mt-[3px]"
+        style="color: rgb(0, 0, 0); font-size: 16px;"
+      >
+        search
+      </span>
+    </div>
+    <div
+      class="relative flex flex-1 items-center"
+    >
+      <input
+        class="bg-[transparent] outline-none w-full h-full text-[11px] pr-[24px] text-[11px] text-[#6C7086] bg-[linear-gradient(0deg, #E9F0FD, #E9F0FD)]"
+        placeholder="Search Here"
+        type="text"
+        value=""
+      />
+    </div>
+  </div>
+</div>
+`;

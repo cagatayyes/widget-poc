@@ -1,0 +1,139 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Game Information Modal should render Game information modal 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body
+    style="overflow: hidden;"
+  >
+    <div />
+    <div
+      class=""
+      id="casino-modal-container"
+    >
+      <div
+        class="absolute flex justify-center w-full z-2222 h-screen items-center"
+        placement="center"
+        style="z-index: 2222; top: 0px;"
+      >
+        <div
+          class="absolute backdrop bg-[#000000] left-0 opacity-50 top-1000 w-full h-[100%]"
+        />
+        <div
+          class="relative modal p-[15px] rounded bg-[var(--main-bg-color)] px-0 py-0 h-[429px] w-full max-w-screen-sm mx-[24px]"
+          placement="center"
+        >
+          <div
+            class=""
+            data-testid="casino-modal-container"
+            placement="center"
+          >
+            <span
+              class="material-symbols-outlined absolute top-[5px] right-[5px] text-[#fff] cursor-pointer"
+              style="font-size: 20px;"
+            >
+              close
+            </span>
+            <div
+              class=""
+              data-testid="casino-modal-content"
+              placement="center"
+            >
+              <div
+                class="h-[350px]"
+              >
+                <div
+                  class="flex flex-col w-full h-fit max-w-screen-sm bg-[var(--main-bg-color)]"
+                >
+                  <div
+                    class="flex items-center h-screen justify-center"
+                    style="max-width: 640px;"
+                  >
+                    <div
+                      class="flex relative h-[250px] w-full justify-center mt-[-100px]"
+                    >
+                      <img
+                        alt="App Loader"
+                        class="animate-pulse h-24 w-24"
+                        height="24"
+                        src="https://casino-cdn.leetent.co.uk/images/loader-1.svg"
+                        width="24"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="flex justify-center"
+            >
+              <button
+                class="border-[1px] text-sm tracking-[-0.2px] h-[40px] rounded-[4px] font-bold flex justify-center items-center transition-colors flex w-full mx-1 mt-[14px] !w-[180px] !h-[38px] items-center px-[18px] border-[#F4BB40] !bg-[#F4BB40]
+				text-[#010C2B]"
+              >
+                <span
+                  class="flex text-[16px] font-bold tracking-widest leading-[14px] text-[14px] tracking-[16%] h-[14px]"
+                >
+                  PLAY NOW
+                </span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div />,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

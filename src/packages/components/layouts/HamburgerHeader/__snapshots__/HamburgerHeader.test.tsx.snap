@@ -1,0 +1,156 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Hamburger Header should render Hamburger Header navigation 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="absolute top-0 flex flex-row bg-[#0D1335] items-center h-[40px] w-full p-[5px] z-[2001]"
+        style="max-width: 640px;"
+      >
+        <button
+          class="flex h-[16px]"
+        >
+          <span
+            class="w-[16px] h-[12px] material-symbols-outlined mt-[2px]"
+            style="color: rgb(255, 255, 255); font-size: 16px;"
+          >
+            menu
+          </span>
+        </button>
+        <div>
+          <img
+            alt="Client Logo"
+            class="h-33 w-76"
+            height="33"
+            src="https://b2b-demo-development.1337pro.com/static/media/logo.81d2c3cf27aa6d2aaffe8ab0acf4bbab.svg"
+            width="76"
+          />
+        </div>
+        <div
+          class="flex flow-row items-center w-full justify-end text-right text-[#808594] text-[8px]"
+        >
+          <div
+            class="flex flex-row text-[white]"
+          >
+            <span
+              class="text-[10px] ml-[3px] mr-[3px] font-bold"
+            >
+              Exit Game
+               
+            </span>
+            <span
+              class="w-[12px] h-[12px] mt-[1px] material-symbols-outlined"
+              style="font-size: 12px;"
+            >
+              move_item
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class=""
+      id="casino-modal-container"
+    />
+  </body>,
+  "container": <div>
+    <div
+      class="absolute top-0 flex flex-row bg-[#0D1335] items-center h-[40px] w-full p-[5px] z-[2001]"
+      style="max-width: 640px;"
+    >
+      <button
+        class="flex h-[16px]"
+      >
+        <span
+          class="w-[16px] h-[12px] material-symbols-outlined mt-[2px]"
+          style="color: rgb(255, 255, 255); font-size: 16px;"
+        >
+          menu
+        </span>
+      </button>
+      <div>
+        <img
+          alt="Client Logo"
+          class="h-33 w-76"
+          height="33"
+          src="https://b2b-demo-development.1337pro.com/static/media/logo.81d2c3cf27aa6d2aaffe8ab0acf4bbab.svg"
+          width="76"
+        />
+      </div>
+      <div
+        class="flex flow-row items-center w-full justify-end text-right text-[#808594] text-[8px]"
+      >
+        <div
+          class="flex flex-row text-[white]"
+        >
+          <span
+            class="text-[10px] ml-[3px] mr-[3px] font-bold"
+          >
+            Exit Game
+             
+          </span>
+          <span
+            class="w-[12px] h-[12px] mt-[1px] material-symbols-outlined"
+            style="font-size: 12px;"
+          >
+            move_item
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

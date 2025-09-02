@@ -1,0 +1,137 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ExitGameModal should render Exit Modal 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body
+    style="overflow: hidden;"
+  >
+    <div />
+    <div
+      class=""
+      id="casino-modal-container"
+    >
+      <div
+        class="absolute flex justify-center w-full z-2222 h-screen items-center"
+        placement="center"
+        style="z-index: 2222; top: 0px;"
+      >
+        <div
+          class="absolute backdrop bg-[#000000] left-0 opacity-50 top-1000 w-full h-[100%]"
+        />
+        <div
+          class="relative modal p-[15px] bg-[#0D1335] text-[#F3F5F8] w-[327px] h-[177px] rounded-[8px]"
+          placement="center"
+        >
+          <div
+            class=""
+            data-testid="casino-modal-container"
+          >
+            <span
+              class="material-symbols-outlined absolute top-[5px] right-[5px] text-[#fff] cursor-pointer"
+              style="font-size: 20px;"
+            >
+              close
+            </span>
+            <div
+              class=""
+              data-testid="casino-modal-content"
+            >
+              <div
+                class="flex flex-col mt-[15px] mb-[10px]"
+              >
+                <span
+                  class="font-roboto-normal text-center font-medium leading-[19px] text-[16px]"
+                >
+                  exitGame
+                </span>
+                <p
+                  class="flex font-robot-normal text-[13px] leading-[17px] text-center mt-[5px] h-[34px]"
+                >
+                  exitGameNote
+                </p>
+              </div>
+            </div>
+            <div
+              class="flex justify-center"
+            >
+              <button
+                class="border-[1px] text-sm tracking-[-0.2px] h-[40px] rounded-[4px] font-bold flex justify-center items-center transition-colors w-full mx-1 mt-[14px] gap-[10px] px-[18px] border-[#fff] !bg-[#fff]
+				text-[#010C2B]"
+              >
+                <span
+                  class="flex tracking-widest leading-[14px] text-[14px] tracking-[16%] h-[14px]"
+                >
+                  yes
+                </span>
+              </button>
+              <button
+                class="border-[1px] text-sm tracking-[-0.2px] h-[40px] rounded-[4px] font-bold flex justify-center items-center transition-colors w-full mx-1 mt-[14px] gap-[10px] px-[18px] border-[#F4BB40] !bg-[#F4BB40]
+				text-[#010C2B]"
+              >
+                <span
+                  class="flex tracking-widest leading-[14px] text-[14px] tracking-[16%] h-[14px]"
+                >
+                  no
+                </span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div />,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

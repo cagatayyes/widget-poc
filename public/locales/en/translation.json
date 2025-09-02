@@ -1,0 +1,27 @@
+{
+  "welcomeMessage": "Welcome to the CASINO!",
+  "loading": "Loading...",
+  "gameLoading": "Game loading..",
+  "categoryLoading": "Category loading..",
+  "safeGambling": "Safe Gambling",
+  "licensingInformation": "Licensing Information",
+  "customerSupport": "Customer Support",
+  "account": "Account",
+  "withdraw": "Withdraw",
+  "Discount": "Dscount",
+  "resume": "RESUME",
+  "overview": "OVERVIEW",
+  "gameinfo": "GAMEINFO",
+  "more": "MORE",
+  "login":"LOGIN",
+  "register":"REGISTER",
+  "loginInfo":"Please proceed to play",
+  "yes": "YES",
+  "no": "NO",
+  "exitGameNote": "You are about to exit your game, are you sure you want to do this?",
+  "exitGame": "Exit Game",
+  "continuePlaying": "Continue Playing",
+  "viewAll": "View All"
+}
+
+

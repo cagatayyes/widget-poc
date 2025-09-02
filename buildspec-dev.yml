@@ -1,0 +1,35 @@
+version: 0.2
+env:
+  variables:
+    VERSION_NUMBER: ""
+  exported-variables:
+    - VERSION_NUMBER
+phases:
+  install:
+    runtime-versions:
+      nodejs: 20
+  pre_build:
+    commands:
+      - echo "Prebuild, installing npm dependencies"
+      # export version number from package.json
+      - VERSION_NUMBER=$(node -e "console.log(require('./package.json').version);")
+      # Update translations env variable, and add version number to the path
+      - sed -i '/^REACT_APP_TRANSLATIONS_CDN_URL/ s/$/'"${VERSION_NUMBER}"'/' ./env/.env.test
+      - cat ./env/.env.test
+      # install dependencies
+      - yarn install
+  build:
+    commands:
+      - echo "Starting the build step"
+      - yarn build:test
+      - mkdir -p deploy/${VERSION_NUMBER}
+      - cp -R dist/* deploy/${VERSION_NUMBER}/
+      - mkdir -p deploy/${VERSION_NUMBER}/locales
+      - cp -R public/locales/* deploy/${VERSION_NUMBER}/locales
+      - ls -lart -R deploy
+      - echo "Finished"
+artifacts:
+  name: "BuildOutput"
+  files:
+    - "**/*"
+  base-directory: "deploy"
