@@ -5,7 +5,7 @@
 	"sideEffects": false,
 	"dependencies": {
 		"@emotion/react": "^11.11.3",
-		"@emotion/styled": "^11.11.0",
+		"@emotion/styled": "^11.14.1",
 		"@types/postcss-js": "^4.0.4",
 		"autoprefixer": "^10.4.16",
 		"axios": "^1.6.2",
